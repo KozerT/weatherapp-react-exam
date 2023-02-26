@@ -97,6 +97,11 @@ const LocationSearch = ({ onSearchChange, ...otherProps }) => {
                 ...provided,
                 display: "none",
               }),
+
+              menuList: (provided, state) => ({
+                ...provided,
+                maxHeight: "78px", 
+              }),
             }}
           />
         ) : (
