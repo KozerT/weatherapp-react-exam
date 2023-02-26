@@ -65,13 +65,13 @@ const LeftBoxItems = ({
             size={27}
             className="mt-1 transition ease-out hover:scale-125 "
           />
-          <p className="mx-1 mt-2 lg:text-base">{location}</p>
+          <p className="mx-1 mt-2 lg:text-base text-collapsed">{location}</p>
         </div>
       </div>
       <div className="flex flex-col items-start left_bottom ">
         <div className="mb-1 -mx-2 lg:mb-0">{icon} </div>
         <p className="text-4xl font-bold ">{Math.round(temperature)} °C</p>
-        <p className="mt-3 text-2xl font-semibold ">
+        <p className="mt-3 text-2xl font-semibold text-collapsed">
           {weatherDescription.charAt(0).toUpperCase() +
             weatherDescription.slice(1)}
         </p>
