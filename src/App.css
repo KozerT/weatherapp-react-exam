@@ -1,3 +1,12 @@
+
+.app-wrapper {
+  background-color: #343D4B;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+}
+
 .left-box {
   background-image: url("./assets/LeftBoxBackgound.jpg");
   background-position: center center;
@@ -6,6 +15,7 @@
   border-radius: 30px;
   position: relative;
 }
+
 
 .left_top {
   position: absolute;
@@ -83,6 +93,8 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+
   .box-container {
     display: block;
     height: 100vh;
@@ -98,7 +110,7 @@
   }
 
   .left-box {
-    height: 40%;
+    height: 50%;
     position: relative;
     margin-bottom: -10%;
     margin-top: -10%;
@@ -114,7 +126,7 @@
   }
 
   .right_top {
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   .left-box .left_top {
@@ -140,14 +152,18 @@
   }
 
   .meteo-text {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .right_bottom {
     position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 20%;
+    margin-bottom: 15%;
   }
+
+ .card-wrap{
+  margin-top: 10% ;
+ }
 
   .left_bottom,
   .right_bottom,

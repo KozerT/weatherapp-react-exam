@@ -38,7 +38,7 @@ const HomeComponents = () => {
 
   return (
     <>
-      <div className="flex items-center justify-center w-screen h-screen bg-gray-700 app-wrapper">
+       <div className="flex items-center justify-center flex-grow app-wrapper">
         <div className="flex items-center w-1/2 sm:w-7/12 md:w-8/12 box-container ">
           <LeftBoxItems
             location={meteorologyComponents?.name ?? ""}
