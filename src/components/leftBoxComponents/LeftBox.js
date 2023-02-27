@@ -55,8 +55,8 @@ const LeftBoxItems = ({
   }, [weatherIcon]);
 
   return (
-    <div className="w-1/2 h-full left-box">
-      <div className="flex flex-col items-start left_top">
+    <div className="w-1/2 h-full left-box ">
+      <div className="flex flex-col items-start left_top ">
         <div className="flex items-center current-date-location">
           <Today />
         </div>

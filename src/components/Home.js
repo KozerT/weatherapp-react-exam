@@ -50,7 +50,7 @@ const HomeComponents = () => {
           />
 
           <div className="w-1/2 h-full auto-cols-max sm:w-7/12 md:w-8/12 right-box">
-            <div className="flex flex-col w-full h-full ">
+            <div className="flex flex-col w-full h-full text_center">
               {meteorologyComponents && (
                 <MeteorologyComponents data={meteorologyComponents} />
               )}

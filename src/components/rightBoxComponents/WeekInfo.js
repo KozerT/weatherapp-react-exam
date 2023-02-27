@@ -28,6 +28,7 @@ const WeekInfo = ({ lat, lon }) => {
   };
 
   return (
+
     <div className="relative flex items-center justify-center card-wrap w-80 2xl:my-16 md:my-6 xl:my-14 ">
       <ul className="flex flex-row items-center w-full justify-evenly card-list">
         {getNextDays().map((date, index) => {

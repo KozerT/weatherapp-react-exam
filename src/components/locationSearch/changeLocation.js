@@ -63,7 +63,7 @@ const LocationSearch = ({ onSearchChange, ...otherProps }) => {
   };
 
   return (
-    <div className="flex ">
+    <div className="flex text_center">
       <div className="flex flex-row items-center justify-center space-x-2 location-bottom w-80">
         <UilLocationPoint
           size={33}

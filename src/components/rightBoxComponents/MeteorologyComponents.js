@@ -7,7 +7,7 @@ const MeteorologyComponents = ({ data }) => {
     precipitationPercent <= 100 ? `${precipitationPercent}%` : "100%";
 
   return (
-    <div className="relative flex flex-col items-start w-full right_top meteo-text ">
+    <div className="relative flex flex-col items-start w-full right_top meteo-text text_center">
       <div className="flex items-center justify-between marg-bot w-80 ">
         <p className="font-semibold">PRECIPITATION</p>
         <p className="font-normal ">{displayPrecipitation}</p>
